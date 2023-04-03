@@ -1,0 +1,6 @@
+<button mat-raised-button (click)="goBack()">Retour</button>
+
+<app-student-card
+  [selectedStudent]="student$ | async"
+  (received)="showReceivedValue($event)"
+></app-student-card>
