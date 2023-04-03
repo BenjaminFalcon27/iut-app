@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "iut-app-510c5": {
+      "hosting": {
+        "iut-app": [
+          "iut-app-510c5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "iut-app-510c5"
+  }
+}
